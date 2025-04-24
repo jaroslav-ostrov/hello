@@ -3,4 +3,4 @@ project(helIo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(helIo main.cpp)
+add_executable(helIo main.c)
