@@ -2,7 +2,7 @@
 
 
 int main() {
-    .
+    
     const char* lang = "C";
      printf("Hello and welcome to %s\n",  lang);
 
