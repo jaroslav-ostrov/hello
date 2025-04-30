@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-
+void second (const int num, const char *sim  ) {
+    printf ("%s see you %i !!! \n",sim , num );
+}
 int main() {
     
     const char* lang = "C";
@@ -10,7 +12,6 @@ int main() {
 
          printf( "i = %i\n " , i  );
     }
-
-    return 0;
+second ( 1000000000," Vladimer "  ) ;
 
 }
