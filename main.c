@@ -3,9 +3,11 @@
 
 
 int main() {
-    const char* lang = "C";
-    printf("Hello and welcome to %s\n",  lang);
-    int eur, rate = 2 ,usd = 1 ;
-     eur = rate/usd ;
-printf("Accepted  USD Converted to  2 EUR %s\n",  lang) ;
+
+    double eur ;
+    double usd = 4.2   ;
+    double rate = 1.12 ;
+     eur = usd / rate ;
+printf("Accepted usd: %f\n ",usd ) ;
+    printf("Accepted eur: %f\n ",eur) ;
 return 0; }
